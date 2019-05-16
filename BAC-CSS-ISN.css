@@ -1,0 +1,72 @@
+body
+{
+	background-image: url("fondbadasse.jpg");
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+div{
+	background-color: rgba(0, 255, 255, 0.5);
+	border-style: double;
+	border-color: yellow;
+	box-shadow: 4px 4px 0px orange;
+	text-align: center;
+}
+
+
+.titre
+{
+	color: rgba(227,51,32,1);
+	text-align: center;
+	text-shadow: 2px 2px 4px black;
+
+}
+
+a {
+	text-decoration: none;
+	color : rgb( 40, 180, 99 );
+}
+
+
+
+a:hover {
+	text-decoration: none;
+	color : red;
+	text-decoration: underline;
+
+}
+
+
+.envi
+{
+	position: fixed;
+	right: 95%;
+	left: 5%;
+	bottom: 50%;
+	top: 50%;
+	font-family: Arial;
+	font-size: 50px;
+}
+
+.techno
+{
+	position: fixed;
+	right: 55%;
+	left: 45%;
+	bottom: 50%;
+	top: 50%;
+	font-family: Arial;
+	font-size: 50px;
+}
+
+.sante
+{
+	position: fixed;
+	right: 20%;
+	left: 80%;
+	bottom: 50%;
+	top: 50%;
+	font-family: Arial;
+	font-size: 50px;
+}
